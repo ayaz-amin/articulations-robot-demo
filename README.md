@@ -83,6 +83,10 @@ Your opinion matters a great deal to us. Only by hearing your thoughts can we co
 
 [Apache License 2.0](LICENSE)
 
+## Side Notes
+
+This fork introduces modifications that allow for use with MLAgents. This includes the ability to train the neural network models with the OpenAI Gym interface (via the MLAgents Gym wrapper) and performing inference with Barracuda. You can create custom environments by modifying the ```AgentController.cs``` script located in ```Assets/Scripts```. This is meant to be a way to get my hands dirty with C# so that I don't have to learn it from scratch. 
+
 
 
 
